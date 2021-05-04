@@ -1,0 +1,468 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('JosefinSans-Medium.woff2') format('woff2'),
+      url('JosefinSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    font: 20px;
+    font-family: 'Josefin Sans';
+}
+
+ul{
+    list-style-type: none;
+}
+.header
+{
+    background-color: white;
+    padding: 5px;
+    position: initial;
+}
+.logo{
+    padding-left: 50px ;
+}
+.logo img{
+    height: 120px;
+}
+.menu{
+ 
+    padding: 30px 80px 10px 10px;
+}
+
+.menubar
+.menu-item a{
+  color: #e2960a;
+    letter-spacing: 2px
+}
+
+.menubar
+.menu-item a:hover{
+  background-color: white;
+  color: black;
+}
+
+.menubar
+.menu-item a:active{
+  background-color: white;
+  color: black;
+}
+
+.slider
+{
+    padding: 0px;
+}
+.slider .carousel-inner .item{
+    height: 500px;
+    width: fit-content;
+}
+
+.carousel
+.carousel-caption h3{
+  font-size: 30px;
+  font-family: 'Josefin Sans';
+  background-color: #0000007a;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.carousel
+.carousel-caption p{
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    background-color: #0000007a;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.GalleryHead
+.heading{
+  text-align: center;
+}
+.Galleryewrapper
+{
+  margin-bottom: 20px;
+  padding-left: 45px;
+}
+.heading h1{
+  letter-spacing: 2px;
+    color: #8d604a;
+    padding: 35px 35px 20px 35px;
+    border-bottom: 0.5px solid #8d604a;
+    border-width: 30%;
+    font-family: 'Josefin Sans';
+}
+
+.about{
+    padding: 0;
+    height: 500px;
+    text-align: center;
+}
+.bimg{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:100%;
+  }
+
+.aboutInner{
+  padding: 30px 100px;
+  color: white;
+}
+
+.about
+.aboutHeading h1{
+  font-size: 40px;
+    margin-bottom: 20px;
+   
+}
+
+.about
+.aboutContent p{
+  padding-top: 40px;
+  font-size: 25px;
+}
+
+.ContactUs
+{
+  text-align: center;
+}
+
+.contacttWrapper
+{
+  padding-top: 20px;
+}
+
+.mapouter{position:relative;text-align:right;height:400px;width:600px;}
+
+.mapouter iframe{
+  border-radius: 10px;
+}
+.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}
+
+.Info .head{
+    font-size: 25px;
+}
+
+.Info .content{
+  font-size: 20px;
+}
+
+.Info 
+.Inforow{
+  padding-bottom: 30px;
+}
+
+.EnquiryHead{
+  text-align: center;
+}
+.Enquiry 
+.container {
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+  }
+
+  .EnquiryWrapper h3{
+      color: #ffba3b;
+      padding-bottom: 15px;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea, 
+  #contact select,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  #contact {
+    
+    padding: 25px;
+
+  }
+  
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact input[type="date"],
+  #contact input[type="time"],
+  #contact textarea,
+  #contact select {
+    width: 100%;
+    /* border-bottom: 1px solid #ccc; */
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    /* border-radius: 20px; */
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact input[type="date"]:hover,
+  #contact input[type="time"]:hover,
+  #contact textarea:hover , #contact select:hover{
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: none;
+    border-bottom: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 30%;
+    border: none;
+    background: #ffba3b;
+    color: #FFF;
+    margin: 10px 10px 10px 165px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 20px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: black;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .WriteUs
+  button{
+    margin-top: 58px;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    /*border: 1px solid #aaa;*/
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
+
+  .Galleryewrapper
+  .container {
+    position: relative;
+    margin: 0px;
+    
+  }
+  
+  /* Hide the images by default */
+  .Galleryewrapper
+  .mySlides {
+    display: none;
+    padding: 10px;
+    width: 520px;
+    margin: 0px;
+  }
+  
+  .Galleryewrapper
+  .mySlides img{
+    height: 500px;
+    width: 520px;
+    margin-left: 370px;
+    border-radius: 20px;
+  }
+  /* Add a pointer when hovering over the thumbnail images */
+  .Galleryewrapper
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .Galleryewrapper
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .Galleryewrapper
+  .next {
+    right: 250px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .Galleryewrapper
+  .prev {
+   margin-left: 375px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .Galleryewrapper
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .Galleryewrapper
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .Galleryewrapper
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .Galleryewrapper
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .Galleryewrapper
+  .column {
+    float: left;
+    width: 16.66%;
+    padding:10px;
+  }
+
+  .Galleryewrapper
+  .row {
+    margin-left: 50px;
+  }
+  .Galleryewrapper
+  .column img {
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+  }
+  /* Add a transparency effect for thumnbail images */
+  .Galleryewrapper
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .Galleryewrapper
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .Enquiry 
+  .WriteUs
+  {
+      border-right: 0.2px solid #ccc;
+  }
+
+.EnquiryWrapper .submit
+{
+  padding-top: 48px;
+}
+.footer
+{
+  background-color: rgba(0, 0, 0, 0.842);
+  height: 60px;
+  color: white;
+  
+}
+
+.footer .socialhandle
+{
+  margin: 15px 15px 0 15px;
+}
+
+.footer a{
+  font-size: 30px;
+  color: white;
+  padding:5px;
+}
+
+.footer p{
+  font-size: 20px;
+  margin: 0px;
+  padding-bottom: 2px;
+}
+
+.footer .copyright
+{
+  text-align: right;
+  padding-top: 15px;
+}
